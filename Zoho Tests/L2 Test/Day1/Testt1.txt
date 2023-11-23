@@ -1,0 +1,33 @@
+class Test1{
+	public static void main(String[] args){
+
+
+	int a[] = {2,-1,6,1};	
+	int c,b=0,min=1000;
+
+		
+	for(int i=0;i<a.length;i++)
+	{
+		c=a[i];
+		if(a[i]<0)
+			{
+			//int b=a[i];
+			b=a[i];
+			c*=-1;
+			
+			
+			}
+		
+		if(c!=0 && c<min)
+		{
+			
+			
+			min=i;
+			
+		}
+	}
+	System.out.println(a[min]);
+
+
+}
+}

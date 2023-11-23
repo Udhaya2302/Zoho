@@ -1,0 +1,55 @@
+import java.util.Scanner;
+class Calculator{
+
+	Scanner scan=new Scanner(System.in);
+
+
+	boolean loop=true;
+
+	while(loop)
+	{
+		System.out.println("1.to Addition ");
+			
+		System.out.println("2 to Subtraction.");
+		
+		System.out.println("3.to Multiply");
+			
+		System.out.println("4 to Division.");
+		
+		System.out.println("5.to percentage");
+			
+		
+		int a=scan.nextInt();
+
+		switch(a)
+		{
+			case 1:
+			{
+				System.out.println(a+b);
+
+			}
+
+
+			case 2:
+			{
+				System.out.println(a-b);
+			}
+
+			case 3: 
+				{
+					System.out.println(a*b);
+
+				}
+			case 4: 
+			{
+				System.out.println(a/b);
+			}
+		
+			case 5: 
+
+		}
+
+
+	}
+
+}

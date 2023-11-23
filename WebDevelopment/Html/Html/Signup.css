@@ -1,0 +1,23 @@
+
+
+body{
+	background-color:#FFEFD5;
+
+}
+.signup{
+	text-align:center;
+	margin:50px;
+	padding:10px;
+	
+	border:2px solid orange;
+	border-radius:15px;
+	
+}
+#First Name{
+	margin:5px;
+	
+	
+}
+#lName{
+	margin-bottom:5px;
+}
